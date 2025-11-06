@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Thank You – The Trading MBA</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            flex-direction: column;
-            text-align: center;
-        }
-        h1 {
-            font-size: 2rem;
-            color: #1a73e8;
-            margin-bottom: 1rem;
-        }
-        p {
-            font-size: 1.2rem;
-            color: #333;
-            max-width: 500px;
-        }
-        a {
-            margin-top: 2rem;
-            display: inline-block;
-            color: #1a73e8;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Join The Trading MBA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #1a73e8;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #333;
+      max-width: 500px;
+    }
+    form {
+      margin-top: 2rem;
+    }
+    input[type="email"] {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 250px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1669c1;
+    }
+  </style>
 </head>
 <body>
-    <h1>🎉 Thank You!</h1>
-    <p>You’ve successfully signed up. We’ll notify you as soon as The Trading MBA launches.</p>
-    <a href="index.html">← Back to Home</a>
+  <h1>🚀 Be the First to Join</h1>
+  <p>Enter your email below and get notified when The Trading MBA launches.</p>
+  
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <input type="email" name="email" placeholder="Your email" required />
+    <button type="submit">Notify Me</button>
+  </form>
 </body>
 </html>
