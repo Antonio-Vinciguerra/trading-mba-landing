@@ -1,0 +1,11 @@
+{
+  "name": "trading-mba-cloudflare-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 migrations apply tmba --remote"
+  },
+  "dependencies": { "jose": "^5.9.6" },
+  "devDependencies": { "wrangler": "^3.114.0" }
+}
