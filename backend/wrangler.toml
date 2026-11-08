@@ -10,5 +10,5 @@ migrations_dir = "migrations"
 
 [vars]
 APP_ORIGIN = "https://thetradingmba.com"
-FIREBASE_PROJECT_ID = "REPLACE_WITH_FIREBASE_PROJECT_ID"
+FIREBASE_PROJECT_ID = "the-trading-mba"
 ENVIRONMENT = "test"
