@@ -1,0 +1,14 @@
+name = "the-trading-mba-api"
+main = "src/index.js"
+compatibility_date = "2026-11-08"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tmba-test"
+database_id = "25bcf9d0-3d33-46c1-9249-18b39e601ffa"
+migrations_dir = "migrations"
+
+[vars]
+APP_ORIGIN = "https://thetradingmba.com"
+FIREBASE_PROJECT_ID = "REPLACE_WITH_FIREBASE_PROJECT_ID"
+ENVIRONMENT = "test"
